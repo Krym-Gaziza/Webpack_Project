@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack Project - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+<script defer src="/contact.bundle.js"></script></head>
+<body>
+    <header>
+        <h1>Webpack Project</h1>
+        <nav>
+            <a href="index.html" data-page="index.html">Home</a>
+            <a href="about.html" data-page="about.html">About</a>
+            <a href="contact.html" data-page="contact.html">Contact</a>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="content">
+            <h2 class="animated">Contact Us</h2>
+            <div class="contact-info animated">
+                <p><strong>Email:</strong> example@example.com</p>
+                <p><strong>Phone:</strong> +1234567890</p>
+                <p><strong>Address:</strong> 123 Street, City, Country</p>
+            </div>
+            <form class="contact-form animated">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="bundle.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
